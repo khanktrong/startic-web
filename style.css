@@ -1,0 +1,283 @@
+:root{
+    --bg1: #9b9b9b;
+    --bg2: #343434;
+    --text: #26ade4;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #666;
+}
+header {
+    padding: 50px;
+    text-align: center;
+    background: rgb(217, 240, 88);
+    color: rgb(255, 255, 255);
+    height: 300px;
+}
+
+
+
+.item{
+    margin-right: auto;
+    margin-left: auto;
+    height: 120px;
+    width: 120px;
+    border: 3px solid var(--text);
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 50%;
+    justify-content: center;
+    color: red;
+
+}
+.item span{
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 12px;
+}
+
+/* Tăng kích thước font chữ cho header */
+
+header h1 {
+    font-size: 40px;
+}
+
+header 
+h1{
+    color: red;
+
+}
+h2,
+h3 {
+    color: white;
+}
+
+section {
+    padding: 40x;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f38d65;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active),
+.dropdown:hover .dropbtn {
+    color: rgb(25, 236, 25);
+    background-color: #4CAF50;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d8e24f;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #666;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Landing page */
+
+.hideable-section {
+    display: none;
+}
+
+.hideable-section:first-of-type {
+    display: block;
+}
+.home_title {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+.home_content h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: rgb(75, 67, 66);
+}
+
+.home_title p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(75, 67, 66);
+    margin-bottom: 50px;
+}
+
+.home_title a {
+    padding: 15px 40px;
+    border: 3px solid #092512;
+    background: #28c509;
+    font-family: 'Playb all', cursive;
+    border-radius: 30px;
+    color: #e7cf7e;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+.home_title a:hover {
+    border: 3px solid #e7cf7e;
+    color: #092512;
+}
+
+.service-title {
+    font-size: 30px;
+    padding: 15px 0;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.service-title h2:hover {
+    color: #81f0a3;
+}
+
+.service {
+    width: 100%;
+    padding: 30px 50px;
+    color: #ffffff;
+    height: 170px;
+    border-radius: 85px;
+}
+
+.service_item {
+    width: 33.33%;
+    float: left;
+}
+
+.service-contant {
+    width: 80%;
+    float: left;
+    padding-left: 20px;
+}
+
+.service_item h2 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.service_item p {
+    font-size: 20px;
+    color: #363636;
+    line-height: 29px;
+}
+
+.service_item h2:hover {
+    color: #81f0a3;
+}
+
+.star i {
+    color: orange;
+    margin-top: 10px;
+}
+
+.product {
+    width: 100%;
+}
+
+.product_left {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.product_left img {
+    max-width: 100%;
+    border-radius: 35px;
+}
+
+.product_right {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
+
+.product_right h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.product_right h3 {
+    font-size: 24px;
+    color: black;
+    font-family: 'Playball', cursive;
+    margin-top: 15px;
+}
+
+.product_right p {
+    color: black;
+    margin-top: 30px;
+    line-height: 29px;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.product_right a {
+    padding: 15px 40px;
+    border: 3px solid #81f0a3;
+    background: #363636;
+    font-family: 'Playball', cursive;
+    border-radius: 5px;
+    color: #c67ee7;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 400ms;
+}
+
+.product_right a i {
+    margin-right: 10px;
+}
+
+.product_right a:hover {
+    border: 3px solid #d30c0c;
+    color: #e29d08;
+}
+
+.product_right h2:hover {
+    color: #e0d313;
+}
